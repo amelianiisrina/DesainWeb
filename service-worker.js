@@ -1,11 +1,11 @@
 const cacheName = 'melimemo-v2';
 const assetsToCache = [
     '/',
-    '/index.html',
-    '/offline.html',
-    '/manifest.json',
-    '/Gambar/192.png',
-    '/Gambar/512.png'
+    '/DesainWeb/index.html',
+    '/DesainWeb/offline.html',
+    '/DesainWeb/manifest.json',
+    '/DesainWeb/Gambar/192.png',
+    '/DesainWeb/Gambar/512.png'
 ];
 
 self.addEventListener('install', event => {
