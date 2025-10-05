@@ -4,7 +4,7 @@
     "name": "The Archive of Me",
     "short_name": "Melimemo",
     "description": "Indonesia negara hukum, Assalamualaikum 😸",
-    "start_url": "/",
+    "start_url": "/DesainWeb/index.html",
     "scope": "/",
     "display": "standalone",
     "background_color": "#000000",
