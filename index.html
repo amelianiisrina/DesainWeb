@@ -7,10 +7,29 @@
             body {
                 font-family: Helvetica;
                 font-weight: bold;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center; 
+                min-height: 100vh; 
+                }
 
-                
+           
+            ul {
+                list-style: none; 
+                padding-left: 0;  
             }
-        </style>
+
+            li {
+               
+                margin: 5px 0;   
+            }
+
+                </style>
+
+
+        
     </head>
 
     <body>
@@ -21,9 +40,19 @@
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <main>
+            <p>Website ini sekarang merupakan <strong>PWA.</strong></p>
+                <p>Artinya, kamu dapat:</p>
+                <ul>
+                    <li><strong>Akses offline:</strong> tetap bisa membuka website tanpa internet</li>
+                    <li><strong>Instalasi di perangkat:</strong> kamu dapat menginstal website di layar utama seperti aplikasi biasa.</li>
+                    <li><strong>Load lebih cepat:</strong> data tersimpan di cache, jadi buka halaman lebih cepat.</li>
+                </ul>
+                <p>Singkatnya, pengalaman browsing jadi lebih nyaman dan mirip aplikasi asli di perangkat kamu!</p>
+        </main>
         <script>
             if ('serviceWorker' in navigator) {
             navigator.serviceWorker.register('/DesainWeb/service-worker.js')
