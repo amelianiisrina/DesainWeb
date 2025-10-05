@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Archive of Me</title>
+        <link rel="manifest" href=""manifest.json">
+    </head>
+        
+    <body>
+
+        <h1>About</h1>
+
+        <p>Menu</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <p style="color:darkgreen;">Halo, saya Niisrina Amelia, mahasiswa Informatika Universitas Andalas angkatan 2024.</p>
+
+        <h3>Hobi & minat</h3>
+        <ul style="color:crimson;">
+            <li>Dengerin musik</li>
+            <li>Main game</li>
+            <li>Baca buku fiksi</li>
+        </ul>
+
+        <p>Web ini dibuat untuk memenuhi tugas mata kuliah Desain Web.</p>
+        <script>
+            if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/service-worker.js')
+                .then(reg => console.log('Service Worker registered', reg))
+                .catch(err => console.log('Service Worker registration failed', err));
+            }
+            </script>
+    </body>
+    </html>
