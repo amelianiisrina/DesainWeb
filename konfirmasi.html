@@ -9,7 +9,7 @@
             <a href="index.html">Kembali ke halaman utama</a>
             <script>
             if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/service-worker.js')
+            navigator.serviceWorker.register('/DesainWeb/service-worker.js')
                 .then(reg => console.log('Service Worker registered', reg))
                 .catch(err => console.log('Service Worker registration failed', err));
             }
