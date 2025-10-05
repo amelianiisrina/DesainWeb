@@ -1,6 +1,5 @@
 const cacheName = 'melimemo-v2';
 const assetsToCache = [
-    '/',
     '/DesainWeb/index.html',
     '/DesainWeb/offline.html',
     '/DesainWeb/manifest.json',
